@@ -22,7 +22,7 @@ export default function Guest() {
     const fetchGuest = async () => {
       try {
         const response = await axios.get(
-          `http://localhost:3000/guest/${clave}`
+          `https://adrian-brenda-back.onrender.com/guest/${clave}`
         );
         setGuest(response.data.guest);
         setLoading(false);
