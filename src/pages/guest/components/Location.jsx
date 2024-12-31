@@ -16,6 +16,9 @@ function Location({className}) {
           <strong>Hora: </strong>7:00 PM
         </p>
         <p>
+          <strong>Fecha: </strong>25 - enero - 2025
+        </p>
+        <p>
           <strong>Ubicación: </strong>Av. Luis Donaldo Colosio Murrieta 2012,
           Potrero del Rey, Luis Donaldo Colosio, 55010 Ecatepec de Morelos, Méx.{" "}
         </p>

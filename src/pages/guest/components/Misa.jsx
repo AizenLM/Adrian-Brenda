@@ -15,6 +15,9 @@ function Misa({className}) {
           <strong>Hora: </strong>4:30 PM
         </p>
         <p>
+          <strong>Fecha: </strong>25 - enero - 2025
+        </p>
+        <p>
           <strong>Iglesia: </strong>Nuestra señora del Monte Carmelo
         </p>
         <p>
