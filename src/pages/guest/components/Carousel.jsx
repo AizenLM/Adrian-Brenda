@@ -35,7 +35,7 @@ const Carousel = () => {
   ];
 
   return (
-    <div style={{ width: "70%", margin: "auto", padding: "20px 0" }}>
+    <div style={{ width: "80%", margin: "auto", padding: "20px 0" }}>
       <Slider {...settings}>
         {slides.map((slide) => (
           <div key={slide.id}>
