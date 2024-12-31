@@ -9,6 +9,7 @@ import "animate.css"; // Importa animate.css
 import { useInView } from "react-intersection-observer"; // Importa el hook para detectar visibilidad
 import { useParams } from "react-router-dom";
 import axios from "axios";
+import Footer from "./components/Footer";
 
 export default function Guest() {
   const { clave } = useParams(); // Obtenemos la clave desde la URL
@@ -70,7 +71,7 @@ export default function Guest() {
     <>
       <Header />
       {loading ? (
-        <div><h2>NO TE ENCUENTRAS EN LA LISTA DE INVITADOS 😪</h2></div>
+        <div className="content"><h2 className="bad-url">NO TE ENCUENTRAS EN LA LISTA DE INVITADOS 😪</h2></div>
        
       ) : (
         <div className="content">
@@ -102,6 +103,7 @@ export default function Guest() {
         </div>
       </div>
       )}
+      <Footer></Footer>
     </>
   );
 }

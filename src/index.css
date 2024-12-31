@@ -171,6 +171,18 @@ section p {
   justify-content: center;
   justify-items: center;
 }
+footer{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  justify-items: center;
+  font-size: medium;
+  color: rgb(28, 128, 128);
+  padding: 30px;
+}
+.bad-url{
+ text-align: center;
+}
 
 @media (max-width: 768px) {
   .location {
