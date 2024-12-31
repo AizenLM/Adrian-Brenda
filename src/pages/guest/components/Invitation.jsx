@@ -24,7 +24,7 @@ function Invitation({ className, guest }) {
         <span className="guest">
           {guest.firstName} {guest.lastName}
         </span>
-        y a tus acompañantes a acompañarnos el <strong>25 ENERO 2025</strong> en
+        y a tus acompañantes a acompañarnos el <strong>25 enero 2025</strong> en
         este momento único, donde nuestro amor se convertirá en un lazo eterno.
       </p>
       <div className="container-btn">
