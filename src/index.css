@@ -139,6 +139,23 @@ section p {
   margin-bottom: 10px;
   text-decoration: none;
 }
+.btn-secundary{
+  margin: auto;
+  width: 60%;
+  border: none;
+  background-color: var(--var-color-title);
+  padding: 10px;
+  text-align: center;
+  font-weight: 800;
+  color: white;
+  cursor: pointer;
+  border-radius: 10px;
+  margin-bottom: 10px;
+  text-decoration: none;
+}
+.btn-secundary:hover{
+  text-decoration: underline
+}
 .location {
   background-color: var(--var-color-section);
   margin: auto;

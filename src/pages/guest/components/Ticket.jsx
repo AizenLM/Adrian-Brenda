@@ -1,5 +1,6 @@
 import React from 'react'
 import TicketIcon from './icons/Ticket.svg'
+import AnillosIcon from './icons/Anillos.svg'
 
 function Ticket({numGuest}) {
   return (
