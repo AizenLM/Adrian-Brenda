@@ -1,6 +1,7 @@
 
 import { createBrowserRouter, redirect } from "react-router-dom";
 import Guest from "../pages/guest/Guest";
+import Confirmed from "../pages/confirmed/Confirmed";
 
 // Configuración de las rutas
 export const router = createBrowserRouter([
@@ -12,6 +13,10 @@ export const router = createBrowserRouter([
   {
     path: "/guest/:clave", 
     element: <Guest /> 
+  },
+  {
+    path: "/confirmedaznlm",
+    element: <Confirmed></Confirmed>
   },
   {
     path: "*",  // Ruta "catch-all" para rutas no definidas

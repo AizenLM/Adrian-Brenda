@@ -63,10 +63,11 @@ function Invitation({ className, guest }) {
           className="btn-primary"
           onClick={() => setShowTickets((prev) => !prev)}
           aria-pressed={showTickets}
+          disabled={guest.numGuest === 0} // Deshabilita el botón si numGuest es 0
         >
           {showTickets ? "Ocultar mi pase" : "Mostrar mi pase"}
         </button>
-        <h3>favor de confirmar su asistencia haciendo clic en el botón.</h3>
+        <h3>Favor de confirmar su asistencia haciendo clic en el botón.</h3>
         <button
           className="btn-secundary"
           onClick={handleRSVP}
@@ -80,7 +81,7 @@ function Invitation({ className, guest }) {
         </button>
       </div>
 
-      {showTickets && (
+      {showTickets && guest.numGuest > 0 && ( // Condición para mostrar el componente Ticket
         <div className="content-tickets">
           <Ticket numGuest={guest.numGuest} />
         </div>
